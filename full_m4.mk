@@ -2,6 +2,7 @@ $(call inherit-product, device/qcom/common/common.mk)
 PRODUCT_COPY_FILES := \
   device/lge/m4/app_process:system/bin/app_process \
   device/lge/m4/touch_mcs8000.idc:system/usr/idc/touch_mcs8000.idc \
+  device/lge/m4/touch_mcs8000.idc:system/usr/idc/touch_mcs8000_bell.idc \
   device/lge/m4/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
 
 $(call inherit-product-if-exists, vendor/lge/m4/m4-vendor-blobs.mk)
