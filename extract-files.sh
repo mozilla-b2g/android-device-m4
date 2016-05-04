@@ -205,6 +205,8 @@ COMMON_HW="
 	sensors.m4.so
 	camera.msm7627a.so
 	gps.default.so
+	audio_policy.msm7627a.so
+	audio.primary.msm7627a.so
 	"
 
 copy_files "$COMMON_HW" "system/lib/hw" "hw"
